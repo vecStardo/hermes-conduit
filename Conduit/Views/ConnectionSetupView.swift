@@ -814,15 +814,15 @@ extension ConnectionHelpDestination {
         switch self {
         case .tls:
             return [
-                "If you use your own certificate authority, install and trust its root certificate on this device (Settings → General → VPN & Device Management → Certificate Trust Settings).",
-                "Check the server certificate’s expiration and validity dates.",
-                "Confirm this device’s date and time are correct."
+                String(localized: "If you use your own certificate authority, install and trust its root certificate on this device (Settings → General → VPN & Device Management → Certificate Trust Settings)."),
+                String(localized: "Check the server certificate’s expiration and validity dates."),
+                String(localized: "Confirm this device’s date and time are correct.")
             ]
         case .cloudflare:
             return [
-                "Verify the Client ID and Secret belong to a Cloudflare Access service token for this application.",
-                "Make sure a Service Auth policy allows that token to reach this Access application.",
-                "Or turn off \"Use Cloudflare Access service token\" to sign in interactively through the in-app browser."
+                String(localized: "Verify the Client ID and Secret belong to a Cloudflare Access service token for this application."),
+                String(localized: "Make sure a Service Auth policy allows that token to reach this Access application."),
+                String(localized: "Or turn off \"Use Cloudflare Access service token\" to sign in interactively through the in-app browser.")
             ]
         case .start, .dashboard, .credentials, .network, .currentConnection, .repairConnection:
             return []

@@ -236,7 +236,7 @@ struct KanbanTaskComposerView: View {
             // Symmetric ladder: Unlimited -> 5 -> 10 -> 15 … and back down to
             // Unlimited; both directions walk the same rungs.
             Stepper(
-                "Max turns: \(draft.goalMaxTurns.map(String.init) ?? "Unlimited")",
+                "Max turns: \(draft.goalMaxTurns.map(String.init) ?? String(localized: "Unlimited"))",
                 onIncrement: {
                     let base = draft.goalMaxTurns ?? 0
                     draft.goalMaxTurns = min(10_000, base + 5)

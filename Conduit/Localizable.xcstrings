@@ -1667,6 +1667,16 @@
         }
       }
     },
+    "Check the server certificate’s expiration and validity dates." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查服务器证书的有效期和有效性。"
+          }
+        }
+      }
+    },
     "Check voice support" : {
       "localizations" : {
         "zh-Hans" : {
@@ -2215,6 +2225,16 @@
         }
       }
     },
+    "Confirm this device’s date and time are correct." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确认本设备的日期和时间正确无误。"
+          }
+        }
+      }
+    },
     "Connect a Hermes dashboard" : {
       "localizations" : {
         "zh-Hans" : {
@@ -2527,12 +2547,18 @@
         }
       }
     },
-    "Could not build a safe Hermes Kanban request (invalid " : {
+    "Could not %@ this conversation: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not %@ this conversation: %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "无法构造安全的 Hermes 看板请求（无效"
+            "value" : "无法%1$@此对话：%2$@"
           }
         }
       }
@@ -3459,12 +3485,12 @@
         }
       }
     },
-    "Does my Hermes dashboard require authentication? If so, tell me what username and password I should " : {
+    "Does my Hermes dashboard require authentication? If so, tell me what username and password I should use with Hermes Conduit. If authentication is not configured, set it up securely. Do not disable authentication." : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "我的 Hermes 仪表盘需要身份验证吗？如果需要，请告诉我应使用什么"
+            "value" : "我的 Hermes 仪表盘是否需要身份验证？如果需要，告诉我应与 Hermes Conduit 搭配使用的用户名和密码。如果尚未配置身份验证，请安全地完成设置。不要禁用身份验证。"
           }
         }
       }
@@ -4101,12 +4127,18 @@
         }
       }
     },
-    "Hermes does not allow " : {
+    "Hermes does not allow %lld as a manual Kanban destination." : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hermes does not allow %lld as a manual Kanban destination."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hermes 不允许"
+            "value" : "Hermes 不允许将 %lld 用作手动看板目标。"
           }
         }
       }
@@ -4321,12 +4353,12 @@
         }
       }
     },
-    "If dashboard login credentials have not been configured yet, set them up securely and tell me what " : {
+    "If you use your own certificate authority, install and trust its root certificate on this device (Settings → General → VPN & Device Management → Certificate Trust Settings)." : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "如果仪表盘登录凭据尚未配置，请安全地进行设置，并告诉我应使用什么"
+            "value" : "如果你使用自签证书颁发机构，请在本设备上安装并信任其根证书（设置 → 通用 → VPN 与设备管理 → 证书信任设置）。"
           }
         }
       }
@@ -5141,6 +5173,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "模型已更新"
+          }
+        }
+      }
+    },
+    "Make sure a Service Auth policy allows that token to reach this Access application." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确保某条 Service Auth 策略允许该令牌访问此 Access 应用。"
           }
         }
       }
@@ -6525,6 +6567,16 @@
         }
       }
     },
+    "Or turn off \"Use Cloudflare Access service token\" to sign in interactively through the in-app browser." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "或关闭「使用 Cloudflare Access 服务令牌」，改用应用内浏览器交互式登录。"
+          }
+        }
+      }
+    },
     "Or type a custom answer…" : {
       "localizations" : {
         "zh-Hans" : {
@@ -6815,22 +6867,62 @@
         }
       }
     },
-    "Please confirm the HTTPS URL I should use to access the Hermes dashboard through my existing reverse proxy, " : {
+    "Please check the authentication configuration for my Hermes dashboard. If dashboard login credentials have not been configured yet, set them up securely and tell me what username and password I should use with Hermes Conduit. Do not disable authentication." : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "请确认我应使用哪个 HTTPS URL 通过现有反向代理访问 Hermes 仪表盘，"
+            "value" : "请检查我的 Hermes 仪表盘的身份验证配置。如果尚未配置登录凭据，请安全地完成设置，并告诉我应与 Hermes Conduit 搭配使用的用户名和密码。不要禁用身份验证。"
           }
         }
       }
     },
-    "Please make sure the Hermes dashboard is reachable from other devices on my local network, then tell me " : {
+    "Please check whether the Hermes dashboard is currently running. If it is, tell me which port it uses. If it is not running, set it up or start it. Make sure dashboard authentication remains enabled." : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "请确保 Hermes 仪表盘可从本地网络中的其他设备访问，然后告诉我"
+            "value" : "请检查 Hermes 仪表盘当前是否在运行。如果在运行，告诉我它使用的端口；如果没在运行，请设置或启动它。确保仪表盘身份验证保持启用。"
+          }
+        }
+      }
+    },
+    "Please check whether the Hermes dashboard is running. Make sure Tailscale is available on this machine, then configure Tailscale Serve so I can securely access the dashboard from my iPhone or iPad. Keep dashboard authentication enabled. When it is ready, tell me the hostname/address and port I should use with Hermes Conduit." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请检查 Hermes 仪表盘是否在运行。确保这台机器上可用 Tailscale，然后配置 Tailscale Serve，使我能从 iPhone 或 iPad 安全访问仪表盘。保持仪表盘身份验证启用。就绪后告诉我应与 Hermes Conduit 搭配使用的主机名/地址和端口。"
+          }
+        }
+      }
+    },
+    "Please confirm the HTTPS URL I should use to access the Hermes dashboard through my existing reverse proxy, including any custom port or path prefix. Also confirm that dashboard authentication remains enabled." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请确认我通过现有反向代理访问 Hermes 仪表盘应使用的 HTTPS URL（包括自定义端口或路径前缀），并确认仪表盘身份验证保持启用。"
+          }
+        }
+      }
+    },
+    "Please make sure the Hermes dashboard is reachable from other devices on my local network, then tell me the machine's local IP address and the dashboard port I should use with Hermes Conduit. Keep dashboard authentication enabled." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请确保 Hermes 仪表盘可从本地网络中的其他设备访问，然后告诉我这台机器的局域网 IP 地址以及应与 Hermes Conduit 搭配使用的仪表盘端口。保持仪表盘身份验证启用。"
+          }
+        }
+      }
+    },
+    "Please set up or start the Hermes dashboard for me. Make sure it requires authentication, and tell me which port it is using when it is ready. Do not disable authentication." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请为我设置或启动 Hermes 仪表盘。确保它启用了身份验证，就绪后告诉我它使用的端口。不要禁用身份验证。"
           }
         }
       }
@@ -8349,16 +8441,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新工作区的服务器端路径。"
-          }
-        }
-      }
-    },
-    "Service Auth policy for this Access application, or turn off " : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "此 Access 应用的 Service Auth 策略允许，或关闭"
           }
         }
       }
@@ -10439,6 +10521,16 @@
         }
       }
     },
+    "Verify the Client ID and Secret belong to a Cloudflare Access service token for this application." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确认 Client ID 和 Secret 属于此应用的 Cloudflare Access 服务令牌。"
+          }
+        }
+      }
+    },
     "Version" : {
       "localizations" : {
         "zh-Hans" : {
@@ -10815,6 +10907,16 @@
         }
       }
     },
+    "archive" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "归档"
+          }
+        }
+      }
+    },
     "auto" : {
       "localizations" : {
         "zh-Hans" : {
@@ -10831,16 +10933,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要浏览器登录"
-          }
-        }
-      }
-    },
-    "change your connection" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更改连接"
           }
         }
       }
@@ -10915,16 +11007,6 @@
         }
       }
     },
-    "empty list" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "空列表"
-          }
-        }
-      }
-    },
     "invalid response" : {
       "localizations" : {
         "zh-Hans" : {
@@ -10945,32 +11027,12 @@
         }
       }
     },
-    "load the entire transcript over the WebSocket" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通过 WebSocket 加载完整对话记录"
-          }
-        }
-      }
-    },
     "no heartbeat" : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "无心跳"
-          }
-        }
-      }
-    },
-    "no pending … request" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "没有待处理的…请求"
           }
         }
       }
@@ -11057,22 +11119,12 @@
         }
       }
     },
-    "reassign value" : {
+    "restore" : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重新指派值"
-          }
-        }
-      }
-    },
-    "same request, collapsed" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "同一请求，已折叠"
+            "value" : "恢复"
           }
         }
       }
@@ -11097,16 +11149,6 @@
         }
       }
     },
-    "the decision is no longer active" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "该决定已失效"
-          }
-        }
-      }
-    },
     "unassigned (parked — won't run)" : {
       "localizations" : {
         "zh-Hans" : {
@@ -11127,16 +11169,6 @@
         }
       }
     },
-    "unknown yet" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "暂未知"
-          }
-        }
-      }
-    },
     "unsaved changes" : {
       "localizations" : {
         "zh-Hans" : {
@@ -11153,16 +11185,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用户画像"
-          }
-        }
-      }
-    },
-    "which lane does the UI consider active?" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "UI 认为哪一列处于活跃状态？"
           }
         }
       }

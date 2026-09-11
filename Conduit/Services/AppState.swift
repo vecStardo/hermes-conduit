@@ -6544,7 +6544,8 @@ final class AppState: ObservableObject {
             return true
         } catch {
             guard profile == activeProfile else { return false }
-            errorMessage = "Could not \(archived ? "archive" : "restore") this conversation: \(error.localizedDescription)"
+            let archivedAction = String(localized: archived ? "archive" : "restore")
+            errorMessage = String(localized: "Could not \(archivedAction) this conversation: \(error.localizedDescription)")
             return false
         }
     }

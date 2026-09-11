@@ -346,5 +346,13 @@
  {
   "key": "\n… (%lld more lines)",
   "zh": "…（还有 %lld 行）"
+ },
+ {
+  "key": "Hermes does not allow %lld as a manual Kanban destination.",
+  "zh": "Hermes 不允许将 %lld 用作手动看板目标。"
+ },
+ {
+  "key": "Could not %@ this conversation: %@",
+  "zh": "无法%1$@此对话：%2$@"
  }
 ]

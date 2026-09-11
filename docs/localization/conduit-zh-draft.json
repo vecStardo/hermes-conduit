@@ -1658,14 +1658,14 @@
   "notes": "NSLocalizedString 注释，非界面文案"
  },
  "Could not \\(archived ?": {
-  "zh": "无法\\(archived ?",
-  "confidence": "review",
-  "notes": "Swift 插值被扫描截断；全句意为「无法归档/恢复此对话：…」"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Could not build a safe Hermes Kanban request (invalid": {
-  "zh": "无法构造安全的 Hermes 看板请求（无效",
-  "confidence": "review",
-  "notes": "拼接片段，括号未闭合，后接英文字段名"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Could not start the session": {
   "zh": "无法启动会话",
@@ -1983,9 +1983,9 @@
   "confidence": "exact"
  },
  "Does my Hermes dashboard require authentication? If so, tell me what username and password I should": {
-  "zh": "我的 Hermes 仪表盘需要身份验证吗？如果需要，请告诉我应使用什么",
-  "confidence": "review",
-  "notes": "多行拼接提示语首段，句意在此截断，需与后续段译文衔接"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Drag categories into the order you prefer. All remains first in the session drawer.": {
   "zh": "拖动分类可按你喜欢的顺序排列。「全部」始终位于会话抽屉首位。",
@@ -2234,9 +2234,9 @@
   "notes": "连接自检阶段完成标签"
  },
  "Hermes does not allow": {
-  "zh": "Hermes 不允许",
-  "confidence": "review",
-  "notes": "拼接片段，后接英文状态值与其他批次尾段"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Hermes has not reported a working directory for this session yet.": {
   "zh": "Hermes 尚未上报此会话的工作目录。",
@@ -2314,9 +2314,9 @@
   "confidence": "exact"
  },
  "If dashboard login credentials have not been configured yet, set them up securely and tell me what": {
-  "zh": "如果仪表盘登录凭据尚未配置，请安全地进行设置，并告诉我应使用什么",
-  "confidence": "review",
-  "notes": "多行拼接提示语首段，句意在此截断，需与后续段译文衔接"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Ignoring unsupported session YOLO override schema version X": {
   "zh": null,
@@ -2592,9 +2592,9 @@
   "notes": "standing 依 termbase「长期生效」取「长期目标」"
  },
  "Max turns: \\(draft.goalMaxTurns.map(String.init) ??": {
-  "zh": "最大轮数：\\(draft.goalMaxTurns.map(String.init) ??",
-  "confidence": "review",
-  "notes": "Swift 插值被扫描截断；?? 后为 \"Unlimited\"（不限）"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Memory & delegation": {
   "zh": "记忆与委派",
@@ -3080,14 +3080,14 @@
   "confidence": "exact"
  },
  "Please confirm the HTTPS URL I should use to access the Hermes dashboard through my existing reverse proxy,": {
-  "zh": "请确认我应使用哪个 HTTPS URL 通过现有反向代理访问 Hermes 仪表盘，",
-  "confidence": "review",
-  "notes": "多行拼接提示语首段，以逗号截断，需与后续段译文衔接"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Please make sure the Hermes dashboard is reachable from other devices on my local network, then tell me": {
-  "zh": "请确保 Hermes 仪表盘可从本地网络中的其他设备访问，然后告诉我",
-  "confidence": "review",
-  "notes": "多行拼接提示语首段，句意在此截断，需与后续段译文衔接"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Port (optional)": {
   "zh": "端口（可选）",
@@ -3539,9 +3539,9 @@
   "notes": "代码续接 slug 与半角右括号，故保留半角左括号；压缩将损义，保留"
  },
  "Service Auth policy for this Access application, or turn off": {
-  "zh": "此 Access 应用的 Service Auth 策略允许，或关闭",
-  "confidence": "review",
-  "notes": "拼接片段，需与前后片段联读校对语序"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "Session filters": {
   "zh": "会话筛选",
@@ -4529,9 +4529,9 @@
   "notes": "无障碍选择标识符，非显示文案"
  },
  "change your connection": {
-  "zh": "更改连接",
-  "confidence": "review",
-  "notes": "源码中仅作为长句片段或注释出现，独立键存疑"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "character %d": {
   "zh": "第 %d 个字符",
@@ -4604,9 +4604,9 @@
   "notes": "配置标识符，非显示文案"
  },
  "empty list": {
-  "zh": "空列表",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "field absent": {
   "zh": null,
@@ -4699,9 +4699,9 @@
   "notes": "视图 identity 标识串，非界面文案"
  },
  "load the entire transcript over the WebSocket": {
-  "zh": "通过 WebSocket 加载完整对话记录",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "local whisper": {
   "zh": null,
@@ -4754,9 +4754,9 @@
   "notes": "过期提示错误匹配模式（contains 比对），不译"
  },
  "no pending … request": {
-  "zh": "没有待处理的…请求",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "no providers configured": {
   "zh": null,
@@ -4832,9 +4832,9 @@
   "notes": "内部行 ID 前缀（reasoning-\\(ts)），非界面文案"
  },
  "reassign value": {
-  "zh": "重新指派值",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "review-summary- X - X": {
   "zh": null,
@@ -4842,9 +4842,9 @@
   "notes": "内部行 ID 前缀（review-summary-\\(sid)-\\(uuid)），非界面文案"
  },
  "same request, collapsed": {
-  "zh": "同一请求，已折叠",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "session not found": {
   "zh": null,
@@ -4896,9 +4896,9 @@
   "notes": "后端契约串，仅注释出现，界面按后端原文展示"
  },
  "the decision is no longer active": {
-  "zh": "该决定已失效",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "the microphone hears me": {
   "zh": null,
@@ -4935,9 +4935,9 @@
   "notes": "JSON-RPC 错误匹配模式（contains 比对），不译"
  },
  "unknown yet": {
-  "zh": "暂未知",
-  "confidence": "review",
-  "notes": "出自源码注释，非界面文案"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "use without testing": {
   "zh": null,
@@ -4955,9 +4955,9 @@
   "notes": "仅代码注释出现，非界面文案"
  },
  "which lane does the UI consider active?": {
-  "zh": "UI 认为哪一列处于活跃状态？",
-  "confidence": "review",
-  "notes": "出自源码注释；lane 译「列」"
+  "zh": null,
+  "confidence": "none",
+  "notes": "已合并/非界面文案(review 清理)"
  },
  "whisper-large-v3-turbo": {
   "zh": null,
@@ -5490,5 +5490,105 @@
   "zh": "热血",
   "confidence": "exact",
   "source": "option-mapping"
+ },
+ "Please set up or start the Hermes dashboard for me. Make sure it requires authentication, and tell me which port it is using when it is ready. Do not disable authentication.": {
+  "zh": "请为我设置或启动 Hermes 仪表盘。确保它启用了身份验证，就绪后告诉我它使用的端口。不要禁用身份验证。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Please check whether the Hermes dashboard is currently running. If it is, tell me which port it uses. If it is not running, set it up or start it. Make sure dashboard authentication remains enabled.": {
+  "zh": "请检查 Hermes 仪表盘当前是否在运行。如果在运行，告诉我它使用的端口；如果没在运行，请设置或启动它。确保仪表盘身份验证保持启用。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Please check the authentication configuration for my Hermes dashboard. If dashboard login credentials have not been configured yet, set them up securely and tell me what username and password I should use with Hermes Conduit. Do not disable authentication.": {
+  "zh": "请检查我的 Hermes 仪表盘的身份验证配置。如果尚未配置登录凭据，请安全地完成设置，并告诉我应与 Hermes Conduit 搭配使用的用户名和密码。不要禁用身份验证。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Does my Hermes dashboard require authentication? If so, tell me what username and password I should use with Hermes Conduit. If authentication is not configured, set it up securely. Do not disable authentication.": {
+  "zh": "我的 Hermes 仪表盘是否需要身份验证？如果需要，告诉我应与 Hermes Conduit 搭配使用的用户名和密码。如果尚未配置身份验证，请安全地完成设置。不要禁用身份验证。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Please make sure the Hermes dashboard is reachable from other devices on my local network, then tell me the machine's local IP address and the dashboard port I should use with Hermes Conduit. Keep dashboard authentication enabled.": {
+  "zh": "请确保 Hermes 仪表盘可从本地网络中的其他设备访问，然后告诉我这台机器的局域网 IP 地址以及应与 Hermes Conduit 搭配使用的仪表盘端口。保持仪表盘身份验证启用。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Please check whether the Hermes dashboard is running. Make sure Tailscale is available on this machine, then configure Tailscale Serve so I can securely access the dashboard from my iPhone or iPad. Keep dashboard authentication enabled. When it is ready, tell me the hostname/address and port I should use with Hermes Conduit.": {
+  "zh": "请检查 Hermes 仪表盘是否在运行。确保这台机器上可用 Tailscale，然后配置 Tailscale Serve，使我能从 iPhone 或 iPad 安全访问仪表盘。保持仪表盘身份验证启用。就绪后告诉我应与 Hermes Conduit 搭配使用的主机名/地址和端口。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Please confirm the HTTPS URL I should use to access the Hermes dashboard through my existing reverse proxy, including any custom port or path prefix. Also confirm that dashboard authentication remains enabled.": {
+  "zh": "请确认我通过现有反向代理访问 Hermes 仪表盘应使用的 HTTPS URL（包括自定义端口或路径前缀），并确认仪表盘身份验证保持启用。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Hermes does not allow X as a manual Kanban destination.": {
+  "zh": "Hermes 不允许将 {0} 用作手动看板目标。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Could not build a safe Hermes Kanban request (invalid X). The operation was cancelled before any data changed.": {
+  "zh": "无法构造安全的 Hermes 看板请求（{0} 无效）。操作已取消，未更改任何数据。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Could not X this conversation: X": {
+  "zh": "无法{0}此对话：{1}",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "archive": {
+  "zh": "归档",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "restore": {
+  "zh": "恢复",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Unlimited": {
+  "zh": "不限",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Max turns: X": {
+  "zh": "最大轮数：{0}",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "If you use your own certificate authority, install and trust its root certificate on this device (Settings → General → VPN & Device Management → Certificate Trust Settings).": {
+  "zh": "如果你使用自签证书颁发机构，请在本设备上安装并信任其根证书（设置 → 通用 → VPN 与设备管理 → 证书信任设置）。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Check the server certificate’s expiration and validity dates.": {
+  "zh": "检查服务器证书的有效期和有效性。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Confirm this device’s date and time are correct.": {
+  "zh": "确认本设备的日期和时间正确无误。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Verify the Client ID and Secret belong to a Cloudflare Access service token for this application.": {
+  "zh": "确认 Client ID 和 Secret 属于此应用的 Cloudflare Access 服务令牌。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Make sure a Service Auth policy allows that token to reach this Access application.": {
+  "zh": "确保某条 Service Auth 策略允许该令牌访问此 Access 应用。",
+  "confidence": "exact",
+  "source": "review-merge"
+ },
+ "Or turn off \"Use Cloudflare Access service token\" to sign in interactively through the in-app browser.": {
+  "zh": "或关闭「使用 Cloudflare Access 服务令牌」，改用应用内浏览器交互式登录。",
+  "confidence": "exact",
+  "source": "review-merge"
  }
 }

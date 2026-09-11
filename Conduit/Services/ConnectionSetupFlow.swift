@@ -87,33 +87,22 @@ enum ConnectionSetupPrompt: CaseIterable {
     var text: String {
         switch self {
         case .dashboardNotRunning:
-            return "Please set up or start the Hermes dashboard for me. Make sure it requires authentication, "
-                + "and tell me which port it is using when it is ready. Do not disable authentication."
+            return String(localized: "Please set up or start the Hermes dashboard for me. Make sure it requires authentication, and tell me which port it is using when it is ready. Do not disable authentication.")
         case .dashboardUnknown:
-            return "Please check whether the Hermes dashboard is currently running. If it is, tell me which port it uses. "
-                + "If it is not running, set it up or start it. Make sure dashboard authentication remains enabled."
+            return String(localized: "Please check whether the Hermes dashboard is currently running. If it is, tell me which port it uses. If it is not running, set it up or start it. Make sure dashboard authentication remains enabled.")
         case .credentialsMissing:
-            return "Please check the authentication configuration for my Hermes dashboard. "
-                + String(localized: "If dashboard login credentials have not been configured yet, set them up securely and tell me what ")
-                + "username and password I should use with Hermes Conduit. Do not disable authentication."
+            return String(localized: "Please check the authentication configuration for my Hermes dashboard. If dashboard login credentials have not been configured yet, set them up securely and tell me what username and password I should use with Hermes Conduit. Do not disable authentication.")
         case .credentialsUnknown:
-            return String(localized: "Does my Hermes dashboard require authentication? If so, tell me what username and password I should ")
-                + "use with Hermes Conduit. If authentication is not configured, set it up securely. Do not disable authentication."
+            return String(localized: "Does my Hermes dashboard require authentication? If so, tell me what username and password I should use with Hermes Conduit. If authentication is not configured, set it up securely. Do not disable authentication.")
         case .lanDetails:
             // LAN entry is IP-address-only today: canonical transport policy
             // admits localhost, literal private LAN addresses, and Tailscale —
             // not local hostnames. The prompt must not promise them.
-            return String(localized: "Please make sure the Hermes dashboard is reachable from other devices on my local network, then tell me ")
-                + "the machine's local IP address and the dashboard port I should use with Hermes Conduit. "
-                + "Keep dashboard authentication enabled."
+            return String(localized: "Please make sure the Hermes dashboard is reachable from other devices on my local network, then tell me the machine's local IP address and the dashboard port I should use with Hermes Conduit. Keep dashboard authentication enabled.")
         case .tailscaleServe:
-            return "Please check whether the Hermes dashboard is running. Make sure Tailscale is available on this machine, "
-                + "then configure Tailscale Serve so I can securely access the dashboard from my iPhone or iPad. "
-                + "Keep dashboard authentication enabled. When it is ready, tell me the hostname/address and port I should use "
-                + "with Hermes Conduit."
+            return String(localized: "Please check whether the Hermes dashboard is running. Make sure Tailscale is available on this machine, then configure Tailscale Serve so I can securely access the dashboard from my iPhone or iPad. Keep dashboard authentication enabled. When it is ready, tell me the hostname/address and port I should use with Hermes Conduit.")
         case .reverseProxyDetails:
-            return String(localized: "Please confirm the HTTPS URL I should use to access the Hermes dashboard through my existing reverse proxy, ")
-                + "including any custom port or path prefix. Also confirm that dashboard authentication remains enabled."
+            return String(localized: "Please confirm the HTTPS URL I should use to access the Hermes dashboard through my existing reverse proxy, including any custom port or path prefix. Also confirm that dashboard authentication remains enabled.")
         }
     }
 }
