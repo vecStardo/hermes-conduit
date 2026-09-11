@@ -2580,7 +2580,7 @@ struct TypingIndicator: View {
 private struct WorkingStatusLabel: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    private let text = "Working…"
+    private let text = String(localized: "Working…")
     private let cycleDuration = 1.9
     private let sweepFraction = 0.72
 

@@ -5590,5 +5590,30 @@
   "zh": "或关闭「使用 Cloudflare Access 服务令牌」，改用应用内浏览器交互式登录。",
   "confidence": "exact",
   "source": "review-merge"
+ },
+ "This question is no longer active — it was timed out or already resolved.": {
+  "zh": "该问题已失效——已超时或已被处理。",
+  "confidence": "exact",
+  "source": "device-feedback-r2"
+ },
+ "This approval is no longer active — Hermes timed it out and continued.": {
+  "zh": "该审批已失效——Hermes 已超时并继续执行。",
+  "confidence": "exact",
+  "source": "device-feedback-r2"
+ },
+ "These questions are no longer active — Hermes timed them out and continued.": {
+  "zh": "这些问题已失效——Hermes 已超时并继续执行。",
+  "confidence": "exact",
+  "source": "device-feedback-r2"
+ },
+ "This question is no longer active — Hermes timed it out and continued.": {
+  "zh": "该问题已失效——Hermes 已超时并继续执行。",
+  "confidence": "exact",
+  "source": "device-feedback-r2"
+ },
+ "X X…": {
+  "zh": "{0} {1}…",
+  "confidence": "exact",
+  "source": "device-feedback-r2"
  }
 }

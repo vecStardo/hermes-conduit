@@ -686,7 +686,7 @@ final class AppState: ObservableObject {
     var composerPlaceholder: String {
         switch turnState {
         case .running:
-            return "\(busyInputMode.title) \(profileDisplayName(activeProfile))…"
+            return String(localized: "\(busyInputMode.title) \(profileDisplayName(activeProfile))…")
         case .synchronizing, .reconnecting:
             return String(localized: "Checking agent activity…")
         case .unsupportedGateway:
@@ -9679,7 +9679,7 @@ final class AppState: ObservableObject {
             case .noLongerActive:
                 activity.questions[0].status = .error
                 activity.questions[0].answer = nil
-                activity.questions[0].error = "This question is no longer active — it was timed out or already resolved."
+                activity.questions[0].error = String(localized: "This question is no longer active — it was timed out or already resolved.")
             }
             messages[updatedIndex].clarify = activity
             cacheMessagePresentation()
@@ -10936,7 +10936,7 @@ final class AppState: ObservableObject {
             messages[updatedIndex].approval?.status = .error
             messages[updatedIndex].approval?.choice = nil
             if Self.isExpiredPromptError(error) {
-                messages[updatedIndex].approval?.error = "This approval is no longer active — Hermes timed it out and continued."
+                messages[updatedIndex].approval?.error = String(localized: "This approval is no longer active — Hermes timed it out and continued.")
             } else {
                 messages[updatedIndex].approval?.error = "Hermes did not accept that decision."
                 errorMessage = error.localizedDescription
@@ -12309,8 +12309,8 @@ final class AppState: ObservableObject {
 
     private static func clarifyExpiredNotice(for questionCount: Int) -> String {
         questionCount > 1
-            ? "These questions are no longer active — Hermes timed them out and continued."
-            : "This question is no longer active — Hermes timed it out and continued."
+            ? String(localized: "These questions are no longer active — Hermes timed them out and continued.")
+            : String(localized: "This question is no longer active — Hermes timed it out and continued.")
     }
 
     /// Whether a still-pending push-delivered card describes the same logical
